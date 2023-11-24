@@ -1,0 +1,80 @@
+#title1 {
+    text-align: center;
+    font-weight: bold;
+    color: #D9D9D9;
+    padding: 15px;
+    border: 3px solid #D9D9D9;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0px 5px 6px -3px #313131;
+    background-color: #033437;
+}
+#title2 {
+    text-align: center;
+    font-weight: bold;
+    color: #D9D9D9;
+    padding: 15px;
+    border: 3px solid #D9D9D9;
+    border-radius: 20px;
+    width: 80px;
+    box-shadow: 0px 5px 6px -3px #313131;
+    background-color: #033437;
+}
+.textColor {
+    font-weight: bold;
+    color: #D9D9D9;
+}
+.listCustomButtons {
+    border: 3px solid #D9D9D9;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 6px -3px #313131;
+    background-color: #D9D9D9;
+}
+.customButtons { /*Pensando em Remover*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #313131;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 3px solid #D9D9D9;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 250px;
+    box-shadow: 0px 5px 6px -3px #313131;
+    background-color: #D9D9D9;
+}
+#backToPageButton {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #313131;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 3px solid #D9D9D9;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 250px;
+    box-shadow: 0px 5px 6px -3px #313131;
+    background-color: #D9D9D9;
+}
+#listStyle {
+    overflow-x: hidden;
+    width: 480px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #033437;
+}
+/*#bgImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("C:/Users/joaor/OneDrive/Área de Trabalho/Projeto I Protótipo Back-End/Imagens/BGDeco.png");
+}*/
+#bgColor {
+    background-color: #14565A;
+}

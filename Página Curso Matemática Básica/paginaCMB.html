@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemática Fácil</title>
+</head>
+<body id="bgColor" style="font-family: Arial, Helvetica, sans-serif;">
+    <div id="bgImage">
+        <div>
+            <h3 id="title1">Curso Matemática Básica</h3>
+            <p class="textColor">
+                Professor: Rafael Procópio <br>
+                Com a matemática básica você verá  os conceitos fundamentais e operações matemáticas <br>
+                que são essenciais para a compreenssão e resolução de problemas simples.
+            </p> <!--Parágrafo sobre o assunto-->
+            <p></p> <!--Parágrafo sobre sobre o conteúdo de cada aula-->
+        </div>
+        <div>
+            <h4 id="title2">Aulas</h4>
+            <div id="listStyle"> <!--Essa caixa irá conter a lista de aulas-->
+                <input type="text" id="search" onkeyup="itemsDaLista()" placeholder="Aula...">
+
+                <div class="item" style="padding-top: 14px; padding-left: 14px; padding-bottom: 14px;">
+                    <button class="listCustomButtons"
+                    onclick='window.location.href = "../Página Aula Matemática Básica/paginaAulaMB.html"'>
+                    </button>
+                    <p style="display: inline; padding-left: 4px;" class="textColor">Matemática Básica - Introdução #0</p>
+                </div>
+                <div class="item" style="padding-left: 14px;">
+                    <button class="listCustomButtons"></button>
+                    <p style="display: inline; padding-left: 4px;" class="textColor">Matemática Básica - Símbolos Matemáticos #1<p>
+                </div>
+                <div class="item" style="padding-left: 14px; padding-bottom: 14px;">
+                    <button class="listCustomButtons"></button>
+                    <p style="display: inline; padding-left: 4px;" class="textColor">Matemática Básica - Noções Básicas de Conjuntos #2</p>
+                </div>
+                <div class="item" style="padding-left: 14px; padding-bottom: 14px;">
+                    <button class="listCustomButtons"></button>
+                    <p style="display: inline; padding-left: 4px;" class="textColor">Matemática Básica - Conjunto dos Números Reais #3</p>
+                </div>
+                <div class="item" style=" padding-left: 14px; padding-bottom: 14px;">
+                    <button class="listCustomButtons"></button>
+                    <p style="display: inline; padding-left: 4px;" class="textColor">Matemática Básica - Conjunto dos Números Reais #3</p>
+                </div>
+            </div>
+        </div>
+        <div style="padding-top: 50px;">
+            <button id="backToPageButton"
+            onclick='window.location.href="../Página Inicial/paginaInicial.html"'>
+                Voltar à Página Principal
+            </button>
+        </div>
+    </div>
+    <link rel="stylesheet" href="paginaCMB.css">
+</body>
+</html>

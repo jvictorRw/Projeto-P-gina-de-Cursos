@@ -1,0 +1,57 @@
+/* vv Estilo para parte superior da página */
+#title1 { /* <h1> */
+    text-align: center;
+    font-weight: bold;
+    color: #D9D9D9;
+    padding: 15px;
+    border: 3px solid #D9D9D9;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0px 5px 6px -3px #313131;
+    background-color: #033437;
+}
+#texto1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: #D9D9D9;
+}
+/* ^^ Estilo para parte superior da página */
+
+/* vv Estilo para parte inferior da página */
+#title2 { /* <h3> */
+    text-align: center;
+    font-weight: bold;
+    color: #D9D9D9;
+    padding: 15px;
+    border: 3px solid #D9D9D9;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0px 5px 6px -3px #313131;
+    background-color: #033437;
+}
+.customButtons {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #313131;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 3px solid #D9D9D9;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 250px;
+    box-shadow: 0px 5px 6px -3px #313131;
+    background-color: #D9D9D9;
+}
+/* ^^ Estilo para parte inferior da página */
+#bgImage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("C:/Users/joaor/OneDrive/Área de Trabalho/Projeto I Protótipo Back-End/Imagens/BGDeco.png");
+}
+#bgColor {
+    background-color: #14565A;
+}
