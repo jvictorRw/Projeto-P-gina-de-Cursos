@@ -7,38 +7,50 @@
     <title>Matemática Fácil</title>
 </head>
 <body id="bgColor" style="font-family: Arial, Helvetica, sans-serif;">
-        <div id="bgImage">
-            <div style="display: flex; align-items: center; flex-flow: column;"> <!-- Divisão para parte superior da página principal -->
-                <h1 id="title1">Matemática Fácil</h1>
-                <div id="texto1">
-                    <p>Bem vindo ao nosso curso de Matemática 100% Gratuito!<br>
-                    Um Compilado de conteúdo desde o básico até o avançado!<br>
-                    Cursos com PDFs e Atividades</p>
-                </div>
+    <div>
+        <div style="display: flex; align-items: center; flex-flow: column;">
+            <div style="width: 100% ;background-color: #033437;">
+                <h1 id="title1" style="padding-left: 20px;">
+                    Matemática Fácil
+                </h1>
             </div>
-            <div> <!-- Divisão para parte inferior da página principal -->
-                <h3 id="title2">Selecione um curso de sua preferência</h3>
-                <div>
-                    <div style="padding-bottom: 20px;">
-                        <button class="customButtons" id="matBas" onclick='window.location.href="../Página Curso Matemática Básica/paginaCMB.html"'>
-                            Matemática Básica
-                        </button>
-                    </div>
-                    <div style="padding-bottom: 20px;">
-                        <button class="customButtons">Álgebra Avançada
-                        </button>
-                    </div>
-                    <div style="padding-bottom: 20px;">
-                        <button class="customButtons">Geometria
-                        </button>
-                    </div>
-                    <div style="padding-bottom: 20px;">
-                        <button class="customButtons">Matemática Aplicada
-                        </button>
-                    </div>
+        </div>
+            <div id="text1">
+                <p>
+                    Bem vindo ao nosso curso de Matemática 100% Gratuito! <br>
+                    Um Compilado de conteúdo desde o básico até o avançado! <br>
+                    Cursos com PDFs e Atividades
+                </p>
+            </div>
+        <div> <!--Div envolvendo a lista de cursos-->
+            <h3 id="title2">
+                Selecione um curso de sua preferência
+            </h3>
+            <div>
+                <div style="padding-bottom: 20px;">
+                    <button class="customButtons" id="matBas" 
+                    onclick="window.location.href='../Página Curso Matemática Básica/paginaCMB.html'">
+                        Matemática Básica
+                    </button>
+                </div>
+                <div style="padding-bottom: 20px;">
+                    <button class="customButtons">
+                        Álgebra Avançada
+                    </button>
+                </div>
+                <div style="padding-bottom: 20px;">
+                    <button class="customButtons">
+                        Geometria
+                    </button>
+                </div>
+                <div style="padding-bottom: 20px;">
+                    <button class="customButtons">
+                        Matemática Aplicada
+                    </button>
                 </div>
             </div>
         </div>
+    </div>
     <script src="listaDeCursos.js"></script>
     <link rel="stylesheet" href="paginaInicial.css">
 </body>
